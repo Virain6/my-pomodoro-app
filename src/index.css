@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css or index.css */
+/* App.css or index.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.App {
+  min-height: 100vh; /* Make sure App div takes the full height of the viewport */
+  min-width: 100vw; /* Make sure App div takes the full width of the viewport */
+}
+
+/* Ensure the #root div takes full width without any margin or padding */
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
